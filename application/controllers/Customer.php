@@ -6,7 +6,6 @@ class Customer extends CI_Controller
     public function __construct()
     {
         parent::__construct();
-        cek_login();
 
         $this->load->model('Admin_model', 'admin');
         $this->load->library('form_validation');

@@ -22,8 +22,8 @@
             <tbody>
                 <?php
                 $no = 1;
-                if ($customer_type) :
-                    foreach ($customer_type as $ct) :
+                if ($customerType) :
+                    foreach ($customerType as $ct) :
                         ?>
                         <tr>
                             <td><?= $no++; ?></td>
